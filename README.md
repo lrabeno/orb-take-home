@@ -4,7 +4,8 @@ This project reads a CSV file of usage events and sends them to the Orb ingestio
 
 ## Setup
 
-Prerequisites: Have Node version 18 or later installed on your local machine. If you have an earlier version of Node you will need to install node-fetch. `npm install node-fetch`
+Prerequisites: Have Node version 18 or later installed on your local machine. If you have an earlier version of Node you will need to install node-fetch. `npm install node-fetch` You will also need to import node-fetch at the top of your index.js file.
+`import fetch from "node-fetch"`
 
 1. Install dependencies:
    `npm install`
